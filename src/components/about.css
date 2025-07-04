@@ -1,0 +1,57 @@
+.card-section{
+    border:solid rgb(87, 114, 234) 2px;
+    height:330px;
+    width:280px;
+    position:relative;
+    overflow: hidden;
+    margin: 1rem;
+    color:white;
+}
+
+.card-img{
+    height:170px;
+    width:500px;
+}
+.logo{
+    height:25px;
+    width:25px;
+    border-radius: 50%;
+}
+.card-section:hover{
+     transform: scale(1.05);
+     overflow: hidden;
+
+} 
+.about-section{
+    display: flex;
+    margin-top:6rem;
+    padding:5rem;
+    justify-content: space-between;
+    width:100vw;
+    height:100vh;
+   
+}
+#about-me{
+    width:40rem;
+    font-size:1.3rem;
+    font-weight:400;
+    color:rgb(38, 185, 243);
+}
+
+.about-heading{
+    color:rgb(30, 232, 232);
+
+}
+.about-heading:hover{
+    color:rgb(27, 37, 232);
+
+}
+.about{
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+}
+.abt{
+    
+    padding: 2rem;
+}

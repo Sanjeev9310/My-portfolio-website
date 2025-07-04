@@ -1,0 +1,38 @@
+.nav-list li a:hover{
+       font-size:1.53rem;
+       color:rgb(70, 70, 241)
+}
+.nav-list li a{
+    font-size:1.5rem;
+    color:rgb(30, 232, 232);
+    transition:color 0.2ms ease,font-size 0.2s ease;
+}
+.para{
+    font-size:1.5rem;
+    color:rgb(27, 223, 226);
+    padding-left:1rem;
+}
+.nav-bar{
+    width:100vw;
+    height:fit-content;
+    overflow: hidden;
+}
+.nav-section{
+    display: flex;
+    width:100vw;
+    justify-content:space-between;
+    align-items: center;
+    height:3rem;
+}
+.nav-list{
+    width:fit-content;
+    width:25rem;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+.theme-logo{
+    margin-right: 1.5rem;
+}

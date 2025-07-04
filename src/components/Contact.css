@@ -1,0 +1,39 @@
+
+.logo1{
+    width:2rem;
+    height:2rem;
+    border-radius:50%;
+    background-color: rgb(239, 207, 158);
+}
+
+.cnt-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    color:rgb(38, 145, 238);
+    font-size: 1.45rem;
+    width:100vw;
+    height:100vh;
+    padding-left: 2rem;
+
+}
+.contact-section{
+    width:100vw;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    color:rgb(27, 223, 226);
+    font-size: 2rem;
+    font-weight: bold;
+   
+}
+.heading:hover{
+    color:rgb(27, 37, 232);
+}
+.cnt-icons{
+    margin-top: 2rem;
+    row-gap:1.3rem;
+}

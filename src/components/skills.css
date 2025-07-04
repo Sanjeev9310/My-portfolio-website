@@ -1,0 +1,21 @@
+.skill-heading{
+    color:rgb(70, 237, 215);
+    margin-top: 2rem;
+   
+}
+.skill-heading:hover{
+   color:rgb(27, 37, 232);
+}
+.skill-list{
+    color:rgb(38, 185, 243);
+    margin-bottom:2rem;
+    margin-top: 1.7rem;
+    
+}
+.skills{
+    width:100vw;
+    height:100vh;
+}
+.skill-section{
+    padding:2rem;
+}

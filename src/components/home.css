@@ -1,0 +1,136 @@
+.home-section{
+    width:100vw;
+    height:100vh;
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+/* navbar styling */
+#nav-link1 li a:hover{
+       font-size:1.53rem;
+       color:rgb(70, 70, 241)
+}
+#nav-link1 li a{
+    font-size:1.5rem;
+    color:rgb(30, 232, 232);
+    transition:color 0.2ms ease,font-size 0.2s ease;
+}
+.para1{
+    font-size:1.5rem;
+    color:rgb(27, 223, 226);
+}
+.nav-bar1{
+    background-color:transparent;
+    height:4rem;
+    position: relative;
+    
+}
+.nav-bar1 div{
+    position: fixed;
+    width: 100%;
+}
+.nav-section1{
+    padding:1rem;
+}
+
+/* About styling */
+.card-section1{
+    border:solid rgb(87, 114, 234) 2px;
+    height:330px;
+    width:280px;
+    position:relative;
+    overflow: hidden;
+    margin: 1rem;
+    color:white;
+}
+
+.card-img1{
+    height:170px;
+    width:500px;
+}
+.logo1{
+    height:25px;
+    width:25px;
+    border-radius: 50%;
+}
+.card-section1:hover{
+     transform: scale(1.05);
+     overflow: hidden;
+
+} 
+.about-section1{
+    display: flex;
+    margin-top:6rem;
+    padding:5rem;
+    justify-content: space-between;
+    width:100vw;
+}
+#about-me1{
+    width:40rem;
+    font-size:1.4rem;
+    font-weight:400;
+    color:rgb(38, 185, 243);
+}
+
+.about-heading1{
+    color:rgb(30, 232, 232);
+
+}
+.about-heading1:hover{
+    color:rgb(27, 37, 232);
+
+}
+.about1{
+    width: 100vw;
+    height:100vh;
+    padding-left:2rem;
+   
+}
+
+
+/* Skills styling */
+.skill-heading1{
+    color:rgb(70, 237, 215);
+    margin-top: 2rem;
+   
+}
+.skill-heading1:hover{
+   color:rgb(27, 37, 232);
+}
+.skill-list1{
+    color:rgb(38, 185, 243);
+    margin-bottom:2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.skills1{
+    width:100vw;
+    padding-left: 2rem;
+    /* position: relative; */
+}
+#skill-section1{
+    width:100vw;
+    height: fit-content;
+}
+
+/* contact styling */
+.contact-heading1:hover{
+    color:rgb(27, 37, 232);
+}
+.contact-heading1{
+    /* margin-bottom: 0.75rem; */
+    color:rgb(27, 223, 226);
+}
+.contact1{
+     padding:2rem;
+     width:100vw;
+     height:fit-content;
+}
+.contact-logo1{
+    width:2rem;
+    height:2rem;
+    border-radius:50%;
+    background-color: rgb(236, 210, 170);
+}
+.phone1,.email1 a{
+    font-size:1.5rem;
+}
