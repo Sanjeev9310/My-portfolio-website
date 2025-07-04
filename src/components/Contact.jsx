@@ -13,11 +13,11 @@ const Contact = ({bgColor,setBgColor}) => {
              <hr/><hr/><hr/>
              <div className="cnt-icons flex flex-col">
                 <div className='phone1 flex flex-row gap-x-4'>
-                    <img className="logo1" src={phone_call_icon}/>
+                    <img className="logo" src={phone_call_icon}/>
                     <a href="tel+919310147090">contact me</a>
                 </div>
                 <div className='email1 flex flex-row gap-x-4'>
-                    <img className='logo1' src={email_icon}/> 
+                    <img className='logo' src={email_icon}/> 
                     <a href="mailto:skjha9205@gmail.com">skjha9205@gmail.com</a>
                 </div> 
              </div>
