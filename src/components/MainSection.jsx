@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
 import Home from './Home'
 import myProfilePhoto from "../assets/myProfilePhoto.jpg"
-import insta_logo from "../assets/Instagram.svg"
+import insta_logo from "../assets/instagram.svg"
 import linkedin_logo from "../assets/linkedin.svg"
 import whatsapp_logo from "../assets/whatsapp.svg"
 
