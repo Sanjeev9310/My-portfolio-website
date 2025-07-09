@@ -1,21 +1,15 @@
 import React, { useState } from 'react'
 import light_theme from "../assets/star.svg"
 import dark_theme from "../assets/star1.svg"
-import bg_image from "../assets/bg-image.jpg"
-import insta_logo from "../assets/Instagram.svg"
-import linkedin_logo from "../assets/linkedin.svg"
-import whatsapp_logo from "../assets/whatsapp.svg"
 import phone_call_icon from "../assets/phone-call.svg"
 import email_icon from "../assets/envelope.svg"
 import photo from "../assets/myProfilePhoto.jpg"
 import cardImage from "../assets/card_image.jpg"
-
 import Navbar from './Navbar'
 import MainSection from './MainSection'
 import "./home.css"
 
 const Home = ({bgColor,setBgColor}) => {
-  //  const [iconColor,setIconColor]=useState("white");
     const [theme,setTheme]=useState(`${dark_theme}`)
     function handleClick(){
         if(theme===light_theme){
@@ -32,8 +26,6 @@ const Home = ({bgColor,setBgColor}) => {
 }
  return (
      <>
-      {/* <Navbar setBgColor={setBgColor} setTextColor={setTextColor} setTheme={setTheme} theme={theme}/>
-      <MainSection /> */}
       <div className='home-section' style={{backgroundColor:`${bgColor}`}}>
          <Navbar bgColor={bgColor} setBgColor={setBgColor}/>
          <MainSection/>

@@ -5,14 +5,10 @@ import myProfilePhoto from "../assets/myProfilePhoto.jpg"
 import insta_logo from "../assets/instagram.svg"
 import linkedin_logo from "../assets/linkedin.svg"
 import whatsapp_logo from "../assets/whatsapp.svg"
-
-// import bgImage from "../assets/bg-image.jpg"
 import "./MainSection.css"
 import About from './About'
 
 const MainSection = () => {
- 
-  // const desc="My name is sanjeev kumar jha and i am a"
   const [text,setText]=useState("");
   const fullText="Front end developer";
 
